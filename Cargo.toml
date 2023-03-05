@@ -42,7 +42,7 @@ version = "0.2.7"
 
 [dependencies.rustls]
 optional = true
-version = "0.20.0"
+git = "https://github.com/rustls/rustls"
 
 [dependencies.rustls-native-certs]
 optional = true
@@ -54,7 +54,7 @@ version = "0.3.0"
 
 [dependencies.tokio-rustls]
 optional = true
-version = "0.23.0"
+git = "https://github.com/gerred/tls"
 
 [dependencies.webpki]
 optional = true
